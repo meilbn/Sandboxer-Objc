@@ -12,7 +12,8 @@
 
 # 中文介绍
 
-![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_CN_0.jpg)![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_CN_1.jpg)![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_CN_2.jpg)
+![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_CN_0.jpg)|![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_CN_1.jpg)|![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_CN_2.jpg)
+:------:|:------:|:------:
 
 Sandboxer 是用来在 iOS 设备上查看沙盒目录内容的，支持 3D Touch 预览，文件搜索等，方便调试，可以查看一些文件内容，也可以分享出来，方便在电脑上查看。
 
@@ -56,7 +57,8 @@ Sandboxer 使用 MIT 许可证，详情见 LICENSE 文件。
 
 # English
 
-![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_EN_0.jpg)![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_EN_1.jpg)![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_EN_2.jpg)
+![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_EN_0.jpg)|![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_EN_1.jpg)|![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/Screenshot_EN_2.jpg)
+:------:|:------:|:------:
 
 Sandboxer is use for browse files, file previews and 3D Touch, also search and share file.
 
