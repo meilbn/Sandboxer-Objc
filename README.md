@@ -6,9 +6,9 @@
 [![Platform](https://img.shields.io/badge/platform-iOS-orange.svg)](https://www.apple.com/nl/ios/)
 [![Support](https://img.shields.io/badge/support-iOS%207+%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
 
-![](https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/sandboxer_demo.gif)
+<p align="center"><img src="https://github.com/meilbn/Sandboxer-Objc/blob/master/Screenshots/sandboxer_demo.gif" width="232" height="424"/></p>
 
-**[English](https://github.com/meilbn/Sandboxer-Objc#English)**
+# **[English](https://github.com/meilbn/Sandboxer-Objc#english)**
 
 # 中文介绍
 
