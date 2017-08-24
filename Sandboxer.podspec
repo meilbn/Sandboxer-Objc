@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Sandboxer/MLBImageResources.bundle"
+  s.resources = "Sandboxer/SandboxerResources.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
