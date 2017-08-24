@@ -11,7 +11,7 @@
 #import "SandboxerHelper.h"
 #import "Sandboxer-Header.h"
 #import <QuickLook/QuickLook.h>
-#import <MobileCoreServices/MobileCoreServices.h>
+//#import <MobileCoreServices/MobileCoreServices.h>
 
 @interface MLBFileInfo ()
 
