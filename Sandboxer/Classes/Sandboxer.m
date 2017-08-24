@@ -8,6 +8,7 @@
 
 #import "Sandboxer.h"
 #import "MLBDirectoryContentsTableViewController.h"
+#import "NSBundle+Sandboxer.h"
 
 @interface Sandboxer ()
 
@@ -60,7 +61,7 @@
 
 - (NSString *)homeTitle {
     if (nil == _homeTitle) {
-        _homeTitle = @"Home";
+        _homeTitle = [NSBundle mlb_localizedStringForKey:@"home"];
     }
     
     return _homeTitle;
