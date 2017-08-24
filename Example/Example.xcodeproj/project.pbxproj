@@ -21,7 +21,8 @@
 		232700751F4E784400F929B2 /* SandboxerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2327006A1F4E784400F929B2 /* SandboxerHelper.m */; };
 		232700761F4E784400F929B2 /* MLBDirectoryContentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2327006D1F4E784400F929B2 /* MLBDirectoryContentsTableViewController.m */; };
 		232700771F4E784400F929B2 /* MLBFilePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2327006F1F4E784400F929B2 /* MLBFilePreviewController.m */; };
-		232700781F4E784400F929B2 /* MLBImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 232700701F4E784400F929B2 /* MLBImageResources.bundle */; };
+		2327007B1F4E7CED00F929B2 /* NSBundle+Sandboxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2327007A1F4E7CED00F929B2 /* NSBundle+Sandboxer.m */; };
+		2327007D1F4E7DB700F929B2 /* SandboxerResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2327007C1F4E7DB700F929B2 /* SandboxerResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +73,9 @@
 		2327006D1F4E784400F929B2 /* MLBDirectoryContentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBDirectoryContentsTableViewController.m; sourceTree = "<group>"; };
 		2327006E1F4E784400F929B2 /* MLBFilePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBFilePreviewController.h; sourceTree = "<group>"; };
 		2327006F1F4E784400F929B2 /* MLBFilePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBFilePreviewController.m; sourceTree = "<group>"; };
-		232700701F4E784400F929B2 /* MLBImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLBImageResources.bundle; sourceTree = "<group>"; };
+		232700791F4E7CED00F929B2 /* NSBundle+Sandboxer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Sandboxer.h"; sourceTree = "<group>"; };
+		2327007A1F4E7CED00F929B2 /* NSBundle+Sandboxer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Sandboxer.m"; sourceTree = "<group>"; };
+		2327007C1F4E7DB700F929B2 /* SandboxerResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SandboxerResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				2327005C1F4E784400F929B2 /* Classes */,
-				232700701F4E784400F929B2 /* MLBImageResources.bundle */,
+				2327007C1F4E7DB700F929B2 /* SandboxerResources.bundle */,
 			);
 			name = Sandboxer;
 			path = ../../Sandboxer;
@@ -207,6 +210,8 @@
 		232700661F4E784400F929B2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				232700791F4E7CED00F929B2 /* NSBundle+Sandboxer.h */,
+				2327007A1F4E7CED00F929B2 /* NSBundle+Sandboxer.m */,
 				232700671F4E784400F929B2 /* MLBImageResources.h */,
 				232700681F4E784400F929B2 /* MLBImageResources.m */,
 				232700691F4E784400F929B2 /* SandboxerHelper.h */,
@@ -332,8 +337,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2327007D1F4E7DB700F929B2 /* SandboxerResources.bundle in Resources */,
 				2319AADA1F1DA29E0077973C /* LaunchScreen.storyboard in Resources */,
-				232700781F4E784400F929B2 /* MLBImageResources.bundle in Resources */,
 				2319AAD71F1DA29E0077973C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +372,7 @@
 				232700761F4E784400F929B2 /* MLBDirectoryContentsTableViewController.m in Sources */,
 				232700771F4E784400F929B2 /* MLBFilePreviewController.m in Sources */,
 				2319AACC1F1DA29E0077973C /* main.m in Sources */,
+				2327007B1F4E7CED00F929B2 /* NSBundle+Sandboxer.m in Sources */,
 				232700731F4E784400F929B2 /* Sandboxer.m in Sources */,
 				232700711F4E784400F929B2 /* MLBFileTableViewCell.m in Sources */,
 			);
