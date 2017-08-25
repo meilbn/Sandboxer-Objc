@@ -46,7 +46,6 @@ Sandboxer 是用来在 iOS 设备上查看沙盒目录内容的，支持 3D Touc
 
 ## TODO
 
-- 支持 Airdrop 分享
 - 快捷关闭，而不用返回到主目录
 
 ## 系统要求
@@ -91,7 +90,6 @@ Sandboxer is use for browse files, file previews and 3D Touch, also search and s
 
 ## TODO
 
-- Support Airdrop Sharing
 - Quick close without returning to the home directory
 
 ## Requirements
