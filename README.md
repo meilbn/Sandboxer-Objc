@@ -44,6 +44,11 @@ Sandboxer 是用来在 iOS 设备上查看沙盒目录内容的，支持 3D Touc
 - ``fileDeletable``: 是否可以删除文件，用来做权限控制，默认不可以删除
 - ``directoryDeletable``: 是否可以删除文件夹，用来做权限控制，默认不可以删除
 
+## 版本
+
+- ``1.0.1``: 修复了使用 CocoaPods 导入库的时候，找不到资源 Bundle 的问题。
+- ``1.0.0``: 第一版
+
 ## TODO
 
 - 快捷关闭，而不用返回到主目录
@@ -87,6 +92,11 @@ Sandboxer is use for browse files, file previews and 3D Touch, also search and s
 - ``shareable``: If can share file, use for permission control, default is YES
 - ``fileDeletable``: If can delete file, use for permission control, default is NO
 - ``directoryDeletable``: If can delete directory, use for permission control, default is NO
+
+## Version
+
+- ``1.0.1``: Fixed couldn't find resources bundle issue when using CocoaPods to import library.
+- ``1.0.0``: First release.
 
 ## TODO
 
