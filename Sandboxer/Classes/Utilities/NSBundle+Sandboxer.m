@@ -7,6 +7,8 @@
 //
 
 #import "NSBundle+Sandboxer.h"
+#import "Sandboxer.h"
+#import "Sandboxer-Header.h"
 
 @implementation NSBundle (Sandboxer)
 
@@ -14,6 +16,13 @@
     static NSBundle *bundle = nil;
     if (!bundle) {
         NSString *path = [[NSBundle mainBundle] pathForResource:@"SandboxerResources" ofType:@"bundle"];
+        if (MLBIsStringEmpty(path)) {
+            NSBundle *bd = [NSBundle bundleForClass:[Sandboxer class]];
+            if (bd) {
+                path = [bd pathForResource:@"SandboxerResources" ofType:@"bundle"];
+            }
+        }
+        
         bundle = [NSBundle bundleWithPath:path];
     }
     
