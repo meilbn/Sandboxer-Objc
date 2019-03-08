@@ -48,10 +48,12 @@ NSInteger const kMLBDeleteSelectedAlertViewTag = 121; // Toolbar Delete
     if (MLBIsStringEmpty(self.title)) {
         if (self.isHomeDirectory) {
             self.title = [NSBundle mlb_localizedStringForKey:@"home"];
-            self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:[NSBundle mlb_localizedStringForKey:@"close"] style:UIBarButtonItemStyleDone target:self action:@selector(dismissAction)];
         } else {
             self.title = self.fileInfo.displayName;
         }
+    }
+    if (self.isHomeDirectory) {
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:[NSBundle mlb_localizedStringForKey:@"close"] style:UIBarButtonItemStyleDone target:self action:@selector(dismissAction)];
     }
     
     [self initDatas];
