@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Sandboxer"
-  s.version      = "1.0.2"
+  s.version      = "1.1.0"
   s.summary      = "iOS file browser written in Objective-C."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                     - iOS file browser written in Objective-C.
                     - Use for browse sandbox files and directories, or manage them, like delete.
-                    - iOS 7+.
+                    - iOS 8+.
                    DESC
 
   s.homepage     = "https://github.com/meilbn/Sandboxer-Objc"
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
