@@ -46,6 +46,7 @@ Sandboxer 是用来在 iOS 设备上查看沙盒目录内容的，支持 3D Touc
 
 ## 版本
 
+- ``1.1.1``: 增加了 SPM 的支持
 - ``1.1.0``: 移除对 UIWebView 的使用，iOS 最低使用版本变更为 iOS 8+
 - ``1.0.2``: 修复主界面关闭按钮在自定义标题的情况下不显示的问题
 - ``1.0.1``: 修复了使用 CocoaPods 导入库的时候，找不到资源 Bundle 的问题
@@ -97,6 +98,7 @@ Sandboxer is use for browse files, file previews and 3D Touch, also search and s
 
 ## Version
 
+- ``1.1.0``: Added SPM support.
 - ``1.1.0``: Removed UIWebView，lowest support iOS version change to iOS 8+
 - ``1.0.2``: Fixed close button in the home dosen't display when setting custom title
 - ``1.0.1``: Fixed couldn't find resources bundle issue when using CocoaPods to import library.
