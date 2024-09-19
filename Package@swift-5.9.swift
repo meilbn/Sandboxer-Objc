@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.9
 
 import PackageDescription
 
@@ -6,7 +6,7 @@ let package = Package(
     name: "Sandboxer-Objc",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v8)
     ],
     products: [
         .library(
@@ -21,11 +21,7 @@ let package = Package(
                 .copy("SandboxerResources.bundle")
             ],
             cSettings: [
-                .headerSearchPath("Classes"),
-                .headerSearchPath("Classes/Cells"),
-                .headerSearchPath("Classes/Models"),
-                .headerSearchPath("Classes/Utilities"),
-                .headerSearchPath("Classes/ViewControllers")
+                .headerSearchPath("Classes/**")
             ]),
     ]
 )
